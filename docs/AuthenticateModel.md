@@ -1,0 +1,11 @@
+# AuthenticateModel
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**token** | **str** | your access token. If request was made with &#39;return_jwt&#39;, then this token will be a JWT token. Use this token in a header Authorization:Bearer &lt;jwt goes here&gt;. This token currently has an expiration time of 8 hours, but will also be invalidated when signing out | [optional] 
+**user** | [**UsersModel**](UsersModel.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
